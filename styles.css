@@ -248,8 +248,8 @@ p { line-height: 1.65; }
 .lesson-example { width: 100%; margin-top: 20px; padding: 17px 19px; border: 1px solid #eadcb9; border-radius: 12px; background: #fffaf0; }
 .example-mark { display: inline-block; margin-bottom: 7px; color: #8c651a; font-size: 12px; font-weight: 850; letter-spacing: .07em; text-transform: uppercase; }
 .lesson-example p { color: #5e5137; font-size: 15px; }
-.lesson-relations { margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-.relation-chip { min-height: 40px; padding: 7px 8px 7px 12px; display: inline-flex; align-items: center; gap: 9px; border: 1px solid #dbe6e6; border-radius: 11px; background: #f7fbfa; color: #3e5756; font-size: 12px; }
+.lesson-relations { width: 100%; margin-top: 20px; display: flex; flex-wrap: wrap; gap: 10px; }
+.relation-chip { width: 100%; min-height: 40px; padding: 7px 8px 7px 12px; display: inline-flex; align-items: center; gap: 9px; border: 1px solid #dbe6e6; border-radius: 11px; background: #f7fbfa; color: #3e5756; font-size: 12px; }
 .relation-chip strong { color: #315d5a; white-space: nowrap; }
 .relation-chip button { padding: 7px 10px; border: 0; border-radius: 7px; color: var(--blue); background: #e7f3f1; font-size: 12px; font-weight: 750; cursor: pointer; }
 .relation-chip button:hover { color: white; background: var(--blue); }
