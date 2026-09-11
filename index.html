@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fffffb" />
+    <meta name="description" content="Vulpin — a source-aware, personalized learning prototype." />
+    <title>Vulpin — Intelligent Study</title>
+    <link rel="stylesheet" href="styles.css?v=selection-source-5" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div id="app" aria-live="polite"></div>
+    <div id="selection-menu" class="selection-menu" hidden></div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <div id="confirm-modal" class="modal-overlay" hidden>
+      <div class="modal-card">
+        <h3>Exit to Learning Space?</h3>
+        <p>Your study progress is saved. You can return anytime.</p>
+        <div class="modal-actions">
+          <button class="button secondary button-md" data-action="modal-cancel">Stay here</button>
+          <button class="button primary button-md" data-action="modal-confirm">Exit</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js?v=selection-source-5"></script>
+  </body>
+</html>
