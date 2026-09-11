@@ -56,11 +56,11 @@ function header() {
 }
 
 function contextualHeader(title, badge = '') {
-  return `<header class="contextual-header"><button class="icon-button" data-action="back" aria-label="Go back">${icon('back')}</button><div class="contextual-title">${title}</div>${badge ? `<span class="badge">${badge}</span>` : '<span></span>'}</header>`;
+  return `<header class="contextual-header"><button class="icon-button" data-action="back" aria-label="Go back">${icon('caret-left')}</button><div class="contextual-title">${title}</div>${badge ? `<span class="badge">${badge}</span>` : '<span></span>'}</header>`;
 }
 
 function workspaceBar(title, badge = '') {
-  return `<div class="workspace-bar"><button class="icon-button" data-action="back" aria-label="Go back">${icon('back')}</button><div class="workspace-title">${title}</div>${badge ? `<span class="badge">${badge}</span>` : '<span></span>'}</div>`;
+  return `<div class="workspace-bar"><button class="icon-button" data-action="back" aria-label="Go back">${icon('caret-left')}</button><div class="workspace-title">${title}</div>${badge ? `<span class="badge">${badge}</span>` : '<span></span>'}</div>`;
 }
 
 function learningHeader() {

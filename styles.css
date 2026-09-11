@@ -89,7 +89,7 @@ p { line-height: 1.65; }
 .google { border-color: var(--line); background: white; }
 
 .page { min-height: calc(100vh - 82px); padding: 54px 64px 64px; display: flex; flex-direction: column; }
-.page-title { max-width: 1380px; margin: 0 auto 38px; }
+.page-title { max-width: 1380px; margin-bottom: 38px; }
 .page-title h1 { margin-bottom: 10px; }
 .library-grid { max-width: 1380px; margin: 0 auto; display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
 .topic-card { min-height: 280px; padding: 28px; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: var(--radius); background: white; box-shadow: var(--shadow); transition: transform .18s ease, border-color .18s ease; cursor: pointer; }
